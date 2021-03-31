@@ -18,13 +18,19 @@
                 margin-right:10px;
                 }
 
-            .banner {
-                background-color: #D83B01;
-                color: #FFFFFF;
-                display:flex;
-                margin:0px;
-                padding:0px;
-                width:100%;
+            .column {
+	            float: left;
+	            padding: 10px;
+                }
+
+            .row {
+	            width: auto;
+                }
+
+            .row:after {
+	            content: "";
+	            display: table;
+	            clear: both;
                 }
 
             .left, .right {
@@ -88,9 +94,9 @@
 	    <nav role="navigation">
         <div class="column left">
             <div class="menu">
-                <div id="home"><a href='https://duongtho-cwu.github.io/' title='Home'>Home</a></div>
-                <div id="Canvas"><a href="https://canvas.cwu.edu"  title='Canvas'>Canvas</a></div>
-                <div id="Outlook"><a href='https://outlook.office.com/mail/inbox' title='Check email'>Check Email</a></div>
+                <div id="home"><a href='https://duongtho-cwu.github.io/' title='Home' target="_blank">Home</a></div>
+                <div id="Canvas"><a href="https://canvas.cwu.edu"  title='Canvas' target="_blank">Canvas</a></div>
+                <div id="Outlook"><a href='https://outlook.office.com/mail/inbox' title='Check email' target="_blank">Check Email</a></div>
             </div>
         </div>
         </nav>
