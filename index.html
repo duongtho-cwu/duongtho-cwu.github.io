@@ -3,9 +3,74 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>My First Website</title>
+        <meta name="author" content="The King of Mountains and the Queen of Seas"
+        <title>Spring is here CWU!</title>
+        <style type="text/css">
+            body, html {
+                            padding: 0;
+                            background-color:#680c92;
+                            font-family: 'Segoe UI';
+                            padding:0px;
+                            margin:0px;
+                            margin-right:10px;
+                        }
+            .banner     {
+                            background-color: #D83B01;
+                            color: #FFFFFF;
+                            display:flex;
+                            margin:0px;
+                            padding:0px;
+                            width:100%;
+                        }
+        </style>
     </head>
     <body>
-       Hello, World, and welcome to my first website!
+        <!-- Logo and App title begins -->
+        <header role="banner">
+            <div class="banner">
+                             <div style="text-align:left;padding:10px;width:45%"><h1>CWU</h1></div>
+                             <div style="text-align:left;padding:10px;width:55%"><h2>Web Fundamentals</h2></div>
+            </div>
+        </header>
+        <!-- Logo and App title ends -->
+
+        <div class="row">
+        <!-- Left navigation column begins -->
+	    <nav role="navigation">
+        <div class="column left">
+            <div class="menu">
+                <div id="home"><a href='https://duongtho-cwu.github.io/' title='Home'>Home</a></div>
+                <div id="Canvas"><a href="https://canvas.cwu.edu"  title='Canvas'>Canvas</a></div>
+                <div id="Outlook"><a href='https://outlook.office.com/mail/inbox' title='Check email'>Check Email</a></div>
+            </div>
+        </div>
+        </nav>
+        <!-- Left navigation column ends -->
+    
+        <!-- Middle column begins -->
+        <main role="main">
+        <div class="column middle">
+        <h3>Hello World! This is my first website!</h3>
+        </div>
+        </main>
+        <!-- Middle column ends -->
+    
+        <!-- Right column begins -->
+        <aside>
+        <div class="column right">
+            <h3>Academic Calendar</h3><br />
+                            <div>
+                                <br><br>Spring Quarter begins:<br /> 
+                            <div style="color:#8B0000;font-weight:bold">Mar 30, 2021</div>
+                                 <br /><br />Spring Quarter ends:<br />
+                           <div style="color:#8B0000;font-weight:bold">Jun 2, 2021</div>
+                            </div>
+        </div>
+        </aside>
+        <!-- Right column ends -->
+    
+    </div>
+    <!-- Main session - 3 columns ends-->	
+        
     </body>
 </html>
