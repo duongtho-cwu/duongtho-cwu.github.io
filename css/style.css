@@ -64,12 +64,12 @@ blockquote {
 
 blockquote::before {
     content: open-quote;
-  }
-  blockquote::after {
-    content: close-quote;
-  }
-  
+}
 
+blockquote::after {
+    content: close-quote;
+}
+  
 nav {
       float:left;
       display:flex;
