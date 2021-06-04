@@ -282,6 +282,16 @@ a {
     text-decoration: none;
 }
 
+a:active, a:link, a:visited {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+}
+
+li a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(176, 24, 223);
+}
+
 nav a {
     display: inline-block;
     padding: 1.25rem 2rem;
@@ -315,10 +325,16 @@ nav a:hover {
 }
 
 .email {
-    font-family: Charcoal,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #38064d;
     font-size: 1rem;
 
+}
+
+.attribution {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #38064d;
+    font-size: 1rem;
 }
 
 @media screen and (max-width: 50em) {
@@ -326,6 +342,9 @@ nav a:hover {
 		display:none;
 	}
 	
+    .js #attribution {
+		display:none;
+	}
 	.js .slicknav_menu {
 		display:block;
         background-color: rgb(46, 44, 44);
@@ -333,7 +352,7 @@ nav a:hover {
         padding:.75rem;
 	}
 
-    .js a:hover {
+    .js li a:hover {
         color: yellow;
         text-transform: uppercase;
     }
@@ -399,4 +418,5 @@ nav a:hover {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         color:black;
     }
+    
 }
