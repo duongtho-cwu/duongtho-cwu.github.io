@@ -335,6 +335,8 @@ nav a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #38064d;
     font-size: 1rem;
+    float: right;
+    text-align: right;
 }
 
 @media screen and (max-width: 50rem) {
