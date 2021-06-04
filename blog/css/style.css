@@ -317,9 +317,11 @@ nav a:hover {
 .email {
     font-family: Charcoal,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #38064d;
+    font-size: 1rem;
+
 }
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 50em) {
 	.js #menu {
 		display:none;
 	}
@@ -393,9 +395,8 @@ nav a:hover {
     html {
         font-size: 0.85rem;
     }
-    .email {
-        font-family: Charcoal,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        background-color: #38064d;
-
+    a:active, a:link {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color:black;
     }
 }
