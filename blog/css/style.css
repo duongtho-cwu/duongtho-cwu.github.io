@@ -119,7 +119,7 @@ h4 {
 
 h1 {
     font-family: Amsterdam;
-    font-size: 3rem;
+    font-size: 2rem;
     letter-spacing: 0.5rem;
     transform: rotate(-5deg);
     text-align: center;
@@ -136,7 +136,7 @@ h1 {
     color: rgb(229, 245, 8);
     background-color: rgb(116, 6, 126);
     box-shadow: 5px 5px 4px -1px #888;
-    font-size: 5rem;
+    font-size: 3rem;
 }
 
 .subscribe {
@@ -337,7 +337,7 @@ nav a:hover {
     font-size: 1rem;
 }
 
-@media screen and (max-width: 50em) {
+@media screen and (max-width: 50rem) {
 	.js #menu {
 		display:none;
 	}
@@ -353,6 +353,11 @@ nav a:hover {
 	}
 
     .js li a:hover {
+        color: yellow;
+        text-transform: uppercase;
+    }
+
+    .js li a:active {
         color: yellow;
         text-transform: uppercase;
     }
@@ -414,9 +419,9 @@ nav a:hover {
     html {
         font-size: 0.85rem;
     }
-    a:active, a:link {
+    #email a {
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        color:black;
+        color: black;
     }
     
 }
