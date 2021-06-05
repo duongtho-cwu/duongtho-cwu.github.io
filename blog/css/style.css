@@ -289,7 +289,7 @@ a:active, a:link, a:visited {
 
 li a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:rgb(176, 24, 223);
+    color:rgb(62, 48, 66);
 }
 
 nav a {
@@ -324,12 +324,14 @@ nav a:hover {
 	display:none;
 }
 
-.email {
+#email, .email {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #38064d;
-    font-size: 1rem;
+    font-size: 0.75rem;
 
 }
+
+
 
 .attribution {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
